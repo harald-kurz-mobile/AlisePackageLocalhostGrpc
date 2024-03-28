@@ -7,12 +7,12 @@ let package = Package(
 name: "AliseSDK",
 products: [
 .library(
-name: "AliseSDK ",
+name: "AliseSDK",
 targets: ["AliseSDKTarget"]),
 ],
 dependencies: [
 .package(
-url: https://github.com/grpc/grpc-swift.git, "1.21.1"..<"1.21.1"
+url: "https://github.com/grpc/grpc-swift.git", "1.21.1"..<"1.21.1"
 ),],
 targets: [
 .target(
