@@ -261,7 +261,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -4188,14 +4188,20 @@
         "name": "GRPC",
         "printedName": "GRPC",
         "declKind": "Import",
-        "moduleName": "AliseSDK"
+        "moduleName": "AliseSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
         "name": "NIO",
         "printedName": "NIO",
         "declKind": "Import",
-        "moduleName": "AliseSDK"
+        "moduleName": "AliseSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -5662,7 +5668,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -5772,12 +5778,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[CoreNFC.NFCNDEFTag]",
+                "printedName": "[any CoreNFC.NFCNDEFTag]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "NFCNDEFTag",
-                    "printedName": "CoreNFC.NFCNDEFTag",
+                    "printedName": "any CoreNFC.NFCNDEFTag",
                     "usr": "c:objc(pl)NFCNDEFTag"
                   }
                 ],
@@ -5880,21 +5886,30 @@
         "name": "GRPC",
         "printedName": "GRPC",
         "declKind": "Import",
-        "moduleName": "AliseSDK"
+        "moduleName": "AliseSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
         "name": "NIO",
         "printedName": "NIO",
         "declKind": "Import",
-        "moduleName": "AliseSDK"
+        "moduleName": "AliseSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
         "name": "NIOHPACK",
         "printedName": "NIOHPACK",
         "declKind": "Import",
-        "moduleName": "AliseSDK"
+        "moduleName": "AliseSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -5922,14 +5937,10 @@
         "name": "GRPC",
         "printedName": "GRPC",
         "declKind": "Import",
-        "moduleName": "AliseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftProtobuf",
-        "printedName": "SwiftProtobuf",
-        "declKind": "Import",
-        "moduleName": "AliseSDK"
+        "moduleName": "AliseSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -5957,14 +5968,10 @@
         "name": "GRPC",
         "printedName": "GRPC",
         "declKind": "Import",
-        "moduleName": "AliseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftProtobuf",
-        "printedName": "SwiftProtobuf",
-        "declKind": "Import",
-        "moduleName": "AliseSDK"
+        "moduleName": "AliseSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -5980,76 +5987,6 @@
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/NFCUtils\/NFCTagManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2565,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/NFCUtils\/NFCTagManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2675,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/NFCUtils\/NFCTagManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3324,
-      "length": 22,
-      "value": "\"Detected ISO7816 tag\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/NFCUtils\/NFCTagManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3407,
-      "length": 23,
-      "value": "\"Detected ISO15693 tag\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/NFCUtils\/NFCTagManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3489,
-      "length": 21,
-      "value": "\"Detected Felica tag\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/NFCUtils\/NFCTagManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3853,
-      "length": 21,
-      "value": "\"Detected MiFare tag\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/NFCUtils\/NFCTagManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4210,
-      "length": 38,
-      "value": "\"00A4040C0CD2760001354B414E4D30310000\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/NFCUtils\/NFCTagManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4362,
-      "length": 36,
-      "value": "\"In before sendMiFareISO7816Command\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/NFCUtils\/NFCTagManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4897,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/NFCUtils\/NFCTagManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5079,
-      "length": 20,
-      "value": "\"Detected tagunkown\""
-    },
     {
       "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
       "kind": "Array",
@@ -6087,41 +6024,6 @@
     },
     {
       "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5823,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6111,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6293,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6354,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6372,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
       "kind": "StringLiteral",
       "offset": 6579,
       "length": 13,
@@ -6140,41 +6042,6 @@
       "offset": 6679,
       "length": 9,
       "value": "\"message\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7114,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7411,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7595,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7656,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7674,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
@@ -6213,62 +6080,6 @@
     },
     {
       "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8446,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8527,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9115,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9227,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9411,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9460,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9521,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9539,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
       "kind": "StringLiteral",
       "offset": 9748,
       "length": 15,
@@ -6304,62 +6115,6 @@
     },
     {
       "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10315,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10400,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10696,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10807,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10997,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11040,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11101,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11119,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
       "kind": "StringLiteral",
       "offset": 11322,
       "length": 9,
@@ -6378,41 +6133,6 @@
       "offset": 11418,
       "length": 9,
       "value": "\"tickets\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11853,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12152,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12328,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12389,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12407,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
@@ -6464,132 +6184,6 @@
       "value": "\"validUntil\""
     },
     {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13207,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13288,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13376,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13968,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14083,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14203,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14377,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14432,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14489,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14550,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14568,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/AuthenticationService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 400,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/AuthenticationService.swift",
-      "kind": "StringLiteral",
-      "offset": 547,
-      "length": 11,
-      "value": "\"localhost\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/AuthenticationService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 566,
-      "length": 5,
-      "value": "50051"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/AuthenticationService.swift",
-      "kind": "StringLiteral",
-      "offset": 818,
-      "length": 29,
-      "value": "\"grpc connection initialized\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/AuthenticationService.swift",
-      "kind": "StringLiteral",
-      "offset": 885,
-      "length": 35,
-      "value": "\"Couldn’t connect to gRPC server\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/AuthenticationService.swift",
-      "kind": "StringLiteral",
-      "offset": 1445,
-      "length": 41,
-      "value": "\"RPC method ‘login’ failed: \""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/AuthenticationService.swift",
-      "kind": "StringLiteral",
-      "offset": 1485,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/authentication.pb.swift",
       "kind": "StringLiteral",
       "offset": 1966,
@@ -6633,62 +6227,6 @@
     },
     {
       "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/authentication.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2776,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/authentication.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2857,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/authentication.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3149,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/authentication.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3268,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/authentication.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3488,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/authentication.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3539,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/authentication.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3600,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/authentication.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3618,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/authentication.pb.swift",
       "kind": "StringLiteral",
       "offset": 3847,
       "length": 25,
@@ -6707,181 +6245,6 @@
       "offset": 3959,
       "length": 7,
       "value": "\"token\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/authentication.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4392,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/authentication.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4683,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/authentication.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4907,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/authentication.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4968,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/authentication.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4986,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/NFCUtils\/NFCManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1354,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/NFCUtils\/NFCManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2202,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/NFCUtils\/NFCManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4259,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/NFCUtils\/NFCManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4369,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/NFCUtils\/NFCManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6046,
-      "length": 22,
-      "value": "\"Invalid payload size\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/CardReaderService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 405,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/CardReaderService.swift",
-      "kind": "StringLiteral",
-      "offset": 552,
-      "length": 11,
-      "value": "\"localhost\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/CardReaderService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 571,
-      "length": 5,
-      "value": "50051"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/CardReaderService.swift",
-      "kind": "StringLiteral",
-      "offset": 815,
-      "length": 29,
-      "value": "\"grpc connection initialized\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/CardReaderService.swift",
-      "kind": "StringLiteral",
-      "offset": 882,
-      "length": 35,
-      "value": "\"Couldn’t connect to gRPC server\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/CardReaderService.swift",
-      "kind": "StringLiteral",
-      "offset": 1049,
-      "length": 6,
-      "value": "\"Test\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/CardReaderService.swift",
-      "kind": "StringLiteral",
-      "offset": 1342,
-      "length": 41,
-      "value": "\"RPC method ‘login’ failed: \""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/CardReaderService.swift",
-      "kind": "StringLiteral",
-      "offset": 1382,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/CardReaderService.swift",
-      "kind": "Dictionary",
-      "offset": 1677,
-      "length": 35,
-      "value": "[(\"Authorization\", \"Bearer {token}\")]"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/CardReaderService.swift",
-      "kind": "StringLiteral",
-      "offset": 2032,
-      "length": 3,
-      "value": "\"1\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/CardReaderService.swift",
-      "kind": "StringLiteral",
-      "offset": 2062,
-      "length": 3,
-      "value": "\"1\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/authentication.grpc.swift",
-      "kind": "StringLiteral",
-      "offset": 871,
-      "length": 31,
-      "value": "\"authentication.Authentication\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/authentication.grpc.swift",
-      "kind": "Array",
-      "offset": 1624,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/authentication.grpc.swift",
-      "kind": "Array",
-      "offset": 5475,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/authentication.grpc.swift",
-      "kind": "Array",
-      "offset": 6074,
-      "length": 2,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/authentication.grpc.swift",
@@ -6910,62 +6273,6 @@
       "offset": 7465,
       "length": 45,
       "value": "\"\/authentication.Authentication\/Authenticate\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.grpc.swift",
-      "kind": "StringLiteral",
-      "offset": 962,
-      "length": 17,
-      "value": "\"card.CardReader\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.grpc.swift",
-      "kind": "Array",
-      "offset": 1601,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.grpc.swift",
-      "kind": "Array",
-      "offset": 2541,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.grpc.swift",
-      "kind": "Array",
-      "offset": 6197,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.grpc.swift",
-      "kind": "Array",
-      "offset": 6639,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.grpc.swift",
-      "kind": "Array",
-      "offset": 7157,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.grpc.swift",
-      "kind": "Array",
-      "offset": 7709,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.grpc.swift",
-      "kind": "Array",
-      "offset": 8277,
-      "length": 2,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Services\/GrpcGen\/card.grpc.swift",
@@ -7008,62 +6315,6 @@
       "offset": 9913,
       "length": 37,
       "value": "\"\/card.CardReader\/GetKaCommandStream\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Helper\/HexHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 266,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Helper\/HexHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 271,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Helper\/HexHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 303,
-      "length": 33,
-      "value": "\"String must have an even length\""
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Helper\/HexHelper.swift",
-      "kind": "Array",
-      "offset": 386,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Helper\/HexHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 419,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Helper\/HexHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 442,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Helper\/HexHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 554,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/tfsbuild\/Documents\/BitBucket\/AliseSDK\/ios-sdk\/AliseSDK\/Helper\/HexHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 644,
-      "length": 2,
-      "value": "16"
     }
   ]
 }
